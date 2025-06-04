@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.7](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-instrumentation-agno-v0.1.6...python-openinference-instrumentation-agno-v0.1.7) (2025-06-04)
+
+
+### Features
+
+* Agno instrumentor ([#1603](https://github.com/igor-gorohovsky/openinference/issues/1603)) ([50f30e2](https://github.com/igor-gorohovsky/openinference/commit/50f30e26b5fcc074cc8a7dbbc34e9c11b7af0e41))
+* Updates for new Agno verison ([#1647](https://github.com/igor-gorohovsky/openinference/issues/1647)) ([8292d0d](https://github.com/igor-gorohovsky/openinference/commit/8292d0d5620a9c58c4646e553704a31fd3f8cba3))
+
+
+### Bug Fixes
+
+* Agno duplicate model invoke ([#1614](https://github.com/igor-gorohovsky/openinference/issues/1614)) ([919e776](https://github.com/igor-gorohovsky/openinference/commit/919e776c41fc902f76e8da495c7618ae0ad84292))
+* **agno:** Allow agent.name to be `None` in `arun`. ([#1621](https://github.com/igor-gorohovsky/openinference/issues/1621)) ([5288979](https://github.com/igor-gorohovsky/openinference/commit/52889796daa5ac221af21b76d77b80e594cdcf89))
+* filter sensitive model params ([#1737](https://github.com/igor-gorohovsky/openinference/issues/1737)) ([fe7ebbe](https://github.com/igor-gorohovsky/openinference/commit/fe7ebbe9f7663e39d6f18ee1be9f775f0f6e7fb4))
+* handle AgnoInstrumentor failing with OpenAIResponses ([#1701](https://github.com/igor-gorohovsky/openinference/issues/1701)) ([f33fadf](https://github.com/igor-gorohovsky/openinference/commit/f33fadf5a67fd4bce8ba590cdae4c9b7d1133d74))
+
 ## [0.1.6](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-agno-v0.1.5...python-openinference-instrumentation-agno-v0.1.6) (2025-05-30)
 
 
