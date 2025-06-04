@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.3](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-instrumentation-google-genai-v0.1.2...python-openinference-instrumentation-google-genai-v0.1.3) (2025-06-04)
+
+
+### Features
+
+* add Google GenAI instrumentation ([#1500](https://github.com/igor-gorohovsky/openinference/issues/1500)) ([1e669a8](https://github.com/igor-gorohovsky/openinference/commit/1e669a8af18bdfd8a0f92f716b49a7f6c105952a))
+
+
+### Bug Fixes
+
+* google genai with pydantic ([#1724](https://github.com/igor-gorohovsky/openinference/issues/1724)) ([e2ea09a](https://github.com/igor-gorohovsky/openinference/commit/e2ea09a5395f47a5b60ec7961d22114293ebb4f1))
+
+
+### Documentation
+
+* fix google genai import in README ([#1605](https://github.com/igor-gorohovsky/openinference/issues/1605)) ([60ee275](https://github.com/igor-gorohovsky/openinference/commit/60ee2755fa99a68debbe5e9d84c25b92e99c5e31))
+
 ## [0.1.2](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-google-genai-v0.1.1...python-openinference-instrumentation-google-genai-v0.1.2) (2025-05-30)
 
 

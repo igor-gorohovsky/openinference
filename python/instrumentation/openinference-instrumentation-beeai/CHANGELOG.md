@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.7](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-instrumentation-beeai-v0.1.6...python-openinference-instrumentation-beeai-v0.1.7) (2025-06-04)
+
+
+### Features
+
+* beeai python package ([#1496](https://github.com/igor-gorohovsky/openinference/issues/1496)) ([143b770](https://github.com/igor-gorohovsky/openinference/commit/143b770500e615fb692b3e5f945e8dc22e69c1d1))
+* **beeai:** updates so we can run 0.1.19 ([#1576](https://github.com/igor-gorohovsky/openinference/issues/1576)) ([84129f0](https://github.com/igor-gorohovsky/openinference/commit/84129f0212763c96e23961695c4915ec5d14f2f7))
+* **python:** update beeai version ([#1552](https://github.com/igor-gorohovsky/openinference/issues/1552)) ([48f04bb](https://github.com/igor-gorohovsky/openinference/commit/48f04bb7fdd03525d7824d9889aebb745d012a5e))
+* update beeai framework package ([#1525](https://github.com/igor-gorohovsky/openinference/issues/1525)) ([dc8d128](https://github.com/igor-gorohovsky/openinference/commit/dc8d128042c661babb75b2609bb2f97d155ae9d8))
+
+
+### Bug Fixes
+
+* beeai python package ([#1522](https://github.com/igor-gorohovsky/openinference/issues/1522)) ([36b50d7](https://github.com/igor-gorohovsky/openinference/commit/36b50d7386f475a13a3665620b95cf4ade4e5ced))
+* removes spurious print(2) from python beeai and converts rest to loggers ([#1560](https://github.com/igor-gorohovsky/openinference/issues/1560)) ([038209a](https://github.com/igor-gorohovsky/openinference/commit/038209ab6be0d95181db19c1ae15b244ec7afe0a))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/igor-gorohovsky/openinference/issues/1567)) ([c2f428c](https://github.com/igor-gorohovsky/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.6](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-beeai-v0.1.5...python-openinference-instrumentation-beeai-v0.1.6) (2025-05-01)
 
 
