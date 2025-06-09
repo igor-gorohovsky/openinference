@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.18](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-semantic-conventions-v0.1.17...python-openinference-semantic-conventions-v0.1.18) (2025-06-09)
+
+
+### Features
+
+* Add prompt-related semantic conventions ([#1244](https://github.com/igor-gorohovsky/openinference/issues/1244)) ([4f2f842](https://github.com/igor-gorohovsky/openinference/commit/4f2f842f3c23f3269ea902054b0c9d9d23928285))
+* add tool call id ([#1085](https://github.com/igor-gorohovsky/openinference/issues/1085)) ([4813de5](https://github.com/igor-gorohovsky/openinference/commit/4813de5e8f9e7a22e27e6c20353a529a7fd640b6))
+* **semcov:** add audio token counts to semantic convention  ([#1453](https://github.com/igor-gorohovsky/openinference/issues/1453)) ([ae5cd15](https://github.com/igor-gorohovsky/openinference/commit/ae5cd15d0a702f976908d84a6d87847859c4685a))
+* **semcov:** audio conventions ([#1153](https://github.com/igor-gorohovsky/openinference/issues/1153)) ([1188c6d](https://github.com/igor-gorohovsky/openinference/commit/1188c6d3363a388f3eacf35c8a8669084fdefd5b))
+* **semcov:** llm system and llm provicer conventions ([#1071](https://github.com/igor-gorohovsky/openinference/issues/1071)) ([d200d85](https://github.com/igor-gorohovsky/openinference/commit/d200d8509c28407c6b68426b579fd8a547f13579))
+* **semcov:** token counts for cached prompts and reasoning steps in the completion ([#1393](https://github.com/igor-gorohovsky/openinference/issues/1393)) ([c4e2252](https://github.com/igor-gorohovsky/openinference/commit/c4e225244adc287b9b011972bc980550939e126a))
+
+
+### Bug Fixes
+
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/igor-gorohovsky/openinference/issues/1263)) ([5bfaa90](https://github.com/igor-gorohovsky/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/igor-gorohovsky/openinference/issues/1353)) ([85d435b](https://github.com/igor-gorohovsky/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.17](https://github.com/Arize-ai/openinference/compare/python-openinference-semantic-conventions-v0.1.16...python-openinference-semantic-conventions-v0.1.17) (2025-04-02)
 
 

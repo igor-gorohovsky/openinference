@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.1.19](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-instrumentation-anthropic-v0.1.18...python-openinference-instrumentation-anthropic-v0.1.19) (2025-06-09)
+
+
+### Features
+
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/igor-gorohovsky/openinference/issues/1278)) ([2106acf](https://github.com/igor-gorohovsky/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* add README and release please for anthropic instrumentor ([#925](https://github.com/igor-gorohovsky/openinference/issues/925)) ([e8b8973](https://github.com/igor-gorohovsky/openinference/commit/e8b897357d31b2d611c80f4e2d3c5246e87fab1d))
+* Anthropic instrumentation ([#878](https://github.com/igor-gorohovsky/openinference/issues/878)) ([895eeee](https://github.com/igor-gorohovsky/openinference/commit/895eeee6c2e7519acf5f0d6e25598d29c4f56925))
+* **anthropic:** add llm provider and system attributes to anthropic instrumentation ([#1084](https://github.com/igor-gorohovsky/openinference/issues/1084)) ([32756ed](https://github.com/igor-gorohovsky/openinference/commit/32756ed864849082f9eefc63e7d1fd8ec999d0b3))
+* **anthropic:** add stream wrapper and tests ([#1572](https://github.com/igor-gorohovsky/openinference/issues/1572)) ([918aa01](https://github.com/igor-gorohovsky/openinference/commit/918aa017441fd4c8cffdbcaab287913349a41a60))
+* **anthropic:** add tool json schema attributes to anthropic instrumentation ([#1087](https://github.com/igor-gorohovsky/openinference/issues/1087)) ([907b6e5](https://github.com/igor-gorohovsky/openinference/commit/907b6e530cb3ded377e99a7cbe7de1f35f55d39f))
+* **anthropic:** streaming support ([#990](https://github.com/igor-gorohovsky/openinference/issues/990)) ([f3b7b96](https://github.com/igor-gorohovsky/openinference/commit/f3b7b96b1ddaf7194253e3233b9124c73a19840a))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/igor-gorohovsky/openinference/issues/1290)) ([4b69fdc](https://github.com/igor-gorohovsky/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+* instrumentation-anthropic cache token counts ([#1465](https://github.com/igor-gorohovsky/openinference/issues/1465)) ([d6765e0](https://github.com/igor-gorohovsky/openinference/commit/d6765e0edd455fb879ccf0b58ea7d3dfaabeabf0))
+* Tool calling for Anthropic instrumentor ([#939](https://github.com/igor-gorohovsky/openinference/issues/939)) ([2566486](https://github.com/igor-gorohovsky/openinference/commit/25664860f6226dcc4a4ef9b19e67fdc79135889b))
+
+
+### Bug Fixes
+
+* add tool id for anthropic instrumentor and serialize `content` to string if it's not a string ([#1129](https://github.com/igor-gorohovsky/openinference/issues/1129)) ([682724c](https://github.com/igor-gorohovsky/openinference/commit/682724ce436ef8ece5d821073e3845cc3a9d602d))
+* **anthropic:** dynamically import anthropic ([#998](https://github.com/igor-gorohovsky/openinference/issues/998)) ([b627f79](https://github.com/igor-gorohovsky/openinference/commit/b627f796afd2d1499c3bcccfbc17567aa7298df8))
+* capture anthropic model name from response ([#1124](https://github.com/igor-gorohovsky/openinference/issues/1124)) ([8e915f2](https://github.com/igor-gorohovsky/openinference/commit/8e915f2589764575dea0771284c4ecf3182460ec))
+* Fix input message attribute issues + toolcalling from dogfooding ([#948](https://github.com/igor-gorohovsky/openinference/issues/948)) ([dde31f5](https://github.com/igor-gorohovsky/openinference/commit/dde31f51755e5883561d0e9dc195cff13f38f56e))
+* include cache tokens in prompt tokens for anthropic ([#1429](https://github.com/igor-gorohovsky/openinference/issues/1429)) ([abd36c4](https://github.com/igor-gorohovsky/openinference/commit/abd36c45ea4ff966b58eccee42de252bc876d5ab))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/igor-gorohovsky/openinference/issues/1012)) ([3236d27](https://github.com/igor-gorohovsky/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/igor-gorohovsky/openinference/issues/1507)) ([a55edfa](https://github.com/igor-gorohovsky/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* remove anthropic dependency ([#1094](https://github.com/igor-gorohovsky/openinference/issues/1094)) ([4dd0bba](https://github.com/igor-gorohovsky/openinference/commit/4dd0bba7687f7ab70e0cb973ac588a850a9e99b2))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/igor-gorohovsky/openinference/issues/1263)) ([5bfaa90](https://github.com/igor-gorohovsky/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/igor-gorohovsky/openinference/issues/1567)) ([c2f428c](https://github.com/igor-gorohovsky/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/igor-gorohovsky/openinference/issues/1353)) ([85d435b](https://github.com/igor-gorohovsky/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.18](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-anthropic-v0.1.17...python-openinference-instrumentation-anthropic-v0.1.18) (2025-05-19)
 
 

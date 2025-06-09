@@ -1,5 +1,38 @@
 # Changelog
 
+## [0.1.22](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-instrumentation-litellm-v0.1.21...python-openinference-instrumentation-litellm-v0.1.22) (2025-06-09)
+
+
+### Features
+
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/igor-gorohovsky/openinference/issues/1278)) ([2106acf](https://github.com/igor-gorohovsky/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/igor-gorohovsky/openinference/issues/1290)) ([4b69fdc](https://github.com/igor-gorohovsky/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+* **liteLLM:** add support for acompletion streaming (resolves [#1224](https://github.com/igor-gorohovsky/openinference/issues/1224)) ([#1246](https://github.com/igor-gorohovsky/openinference/issues/1246)) ([c461b98](https://github.com/igor-gorohovsky/openinference/commit/c461b981da3ad541fcdf991cca01310cc3eab9a8))
+* **liteLLM:** Implemented image support and corresponding tests ([#900](https://github.com/igor-gorohovsky/openinference/issues/900)) ([f6d11eb](https://github.com/igor-gorohovsky/openinference/commit/f6d11eb602f37770fbdf7ab144c03980c7f90fb7))
+* reasoning, cache, audio token counts litellm ([#1516](https://github.com/igor-gorohovsky/openinference/issues/1516)) ([89fd465](https://github.com/igor-gorohovsky/openinference/commit/89fd465ff432d001fbca9cd3e4cca57bcf476d8a))
+
+
+### Bug Fixes
+
+* Add support for litellm Message type ([#1308](https://github.com/igor-gorohovsky/openinference/issues/1308)) ([1f2407b](https://github.com/igor-gorohovsky/openinference/commit/1f2407b2047fdf952109520fb010cd6ef6aa96ec))
+* Add support for output messages for sync/async ([#1188](https://github.com/igor-gorohovsky/openinference/issues/1188)) ([0bb96b6](https://github.com/igor-gorohovsky/openinference/commit/0bb96b65ebd261445fb63ccc06da49f365dc1fa3))
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/igor-gorohovsky/openinference/issues/1012)) ([3236d27](https://github.com/igor-gorohovsky/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/igor-gorohovsky/openinference/issues/1507)) ([a55edfa](https://github.com/igor-gorohovsky/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* **litellm:** display tool_calls from model output ([#1722](https://github.com/igor-gorohovsky/openinference/issues/1722)) ([53c9fa5](https://github.com/igor-gorohovsky/openinference/commit/53c9fa5498135728364d122eefe2bf23ea30b47c))
+* **litellm:** full JSON output ([#1735](https://github.com/igor-gorohovsky/openinference/issues/1735)) ([891fc26](https://github.com/igor-gorohovsky/openinference/commit/891fc265cd4a4c5600e7dd261e78ad4ad14e9cc6))
+* **litellm:** remove sensitive info from invocation params ([#1571](https://github.com/igor-gorohovsky/openinference/issues/1571)) ([fe4f784](https://github.com/igor-gorohovsky/openinference/commit/fe4f784a020db96f41a2a1f49b1fe8a497369933))
+* **liteLLM:** support sync stream ([#1307](https://github.com/igor-gorohovsky/openinference/issues/1307)) ([5c04fa0](https://github.com/igor-gorohovsky/openinference/commit/5c04fa0e10cd95db50e11b1be9afa0f2c3a39aa5))
+* Start span before API call ([#1562](https://github.com/igor-gorohovsky/openinference/issues/1562)) ([7d9306b](https://github.com/igor-gorohovsky/openinference/commit/7d9306b2f0654600b0a19c06319895470368fdde))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/igor-gorohovsky/openinference/issues/1263)) ([5bfaa90](https://github.com/igor-gorohovsky/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/igor-gorohovsky/openinference/issues/1567)) ([c2f428c](https://github.com/igor-gorohovsky/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+* use safe_json_dumps for invocation parameters in litellm instrumentor ([#1269](https://github.com/igor-gorohovsky/openinference/issues/1269)) ([650dbb9](https://github.com/igor-gorohovsky/openinference/commit/650dbb9f83ce7e94329d159819033d8f86e21129))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/igor-gorohovsky/openinference/issues/1353)) ([85d435b](https://github.com/igor-gorohovsky/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+* litellm examples ([#681](https://github.com/igor-gorohovsky/openinference/issues/681)) ([b6cfe69](https://github.com/igor-gorohovsky/openinference/commit/b6cfe6933d840b2344b5c132a9d471d239af1c9d))
+
 ## [0.1.21](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-litellm-v0.1.20...python-openinference-instrumentation-litellm-v0.1.21) (2025-05-31)
 
 

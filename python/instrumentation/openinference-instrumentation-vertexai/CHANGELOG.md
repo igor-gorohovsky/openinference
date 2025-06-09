@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.12](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-instrumentation-vertexai-v0.1.11...python-openinference-instrumentation-vertexai-v0.1.12) (2025-06-09)
+
+
+### Features
+
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/igor-gorohovsky/openinference/issues/1278)) ([2106acf](https://github.com/igor-gorohovsky/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/igor-gorohovsky/openinference/issues/1290)) ([4b69fdc](https://github.com/igor-gorohovsky/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+
+
+### Bug Fixes
+
+* increase version lower bound for openinference-instrumentation ([#1012](https://github.com/igor-gorohovsky/openinference/issues/1012)) ([3236d27](https://github.com/igor-gorohovsky/openinference/commit/3236d2733a46b84d693ddb7092209800cde8cc34))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/igor-gorohovsky/openinference/issues/1507)) ([a55edfa](https://github.com/igor-gorohovsky/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* support function call parts when streaming ([#1587](https://github.com/igor-gorohovsky/openinference/issues/1587)) ([43abca2](https://github.com/igor-gorohovsky/openinference/commit/43abca26f75277f1a605389b1e99a19220104820))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/igor-gorohovsky/openinference/issues/1263)) ([5bfaa90](https://github.com/igor-gorohovsky/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/igor-gorohovsky/openinference/issues/1567)) ([c2f428c](https://github.com/igor-gorohovsky/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/igor-gorohovsky/openinference/issues/1353)) ([85d435b](https://github.com/igor-gorohovsky/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.11](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-vertexai-v0.1.10...python-openinference-instrumentation-vertexai-v0.1.11) (2025-05-05)
 
 

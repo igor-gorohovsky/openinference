@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.1.33](https://github.com/igor-gorohovsky/openinference/compare/python-openinference-instrumentation-v0.1.32...python-openinference-instrumentation-v0.1.33) (2025-06-09)
+
+
+### Features
+
+* add ability to hide LLM invocation paramaters for OITracer ([#1171](https://github.com/igor-gorohovsky/openinference/issues/1171)) ([f7e94c7](https://github.com/igor-gorohovsky/openinference/commit/f7e94c7f658570169c564f11663fc9eeaee05f46))
+* add manual instrumentation helpers for llm spans ([#1424](https://github.com/igor-gorohovsky/openinference/issues/1424)) ([ee79fa3](https://github.com/igor-gorohovsky/openinference/commit/ee79fa35c247608f21b902b84443427ddf643314))
+* Agno instrumentor ([#1603](https://github.com/igor-gorohovsky/openinference/issues/1603)) ([50f30e2](https://github.com/igor-gorohovsky/openinference/commit/50f30e26b5fcc074cc8a7dbbc34e9c11b7af0e41))
+* attribute prioritization ([#906](https://github.com/igor-gorohovsky/openinference/issues/906)) ([0add042](https://github.com/igor-gorohovsky/openinference/commit/0add0421b5f0d9b64c579027c469513359863a68))
+* id generator with separate source of randomness ([#1010](https://github.com/igor-gorohovsky/openinference/issues/1010)) ([ac8cce1](https://github.com/igor-gorohovsky/openinference/commit/ac8cce112341bb31a575cb1e61a55acb196fc600))
+* **instrumentation:** add helpers for remaining semantic conventions ([#1606](https://github.com/igor-gorohovsky/openinference/issues/1606)) ([cb3d4fa](https://github.com/igor-gorohovsky/openinference/commit/cb3d4fa5f0b5d3281c60fa02fa9219813218e815))
+* openai-agents instrumentation ([#1350](https://github.com/igor-gorohovsky/openinference/issues/1350)) ([9afbad3](https://github.com/igor-gorohovsky/openinference/commit/9afbad3100d68601a2f9265fe20985a34f80e04b))
+* openinference tracer ([#1147](https://github.com/igor-gorohovsky/openinference/issues/1147)) ([22d80ca](https://github.com/igor-gorohovsky/openinference/commit/22d80ca066a8d29e9b9ef08ce581b4a7ad4eb08b))
+* pydanticai instrumentation ([#1639](https://github.com/igor-gorohovsky/openinference/issues/1639)) ([d8c5b9c](https://github.com/igor-gorohovsky/openinference/commit/d8c5b9cdf793dcce247b2ea852c28eba3a1989bc))
+
+
+### Bug Fixes
+
+* add missing dependency opentelemetry-sdk ([#1026](https://github.com/igor-gorohovsky/openinference/issues/1026)) ([11e6cb9](https://github.com/igor-gorohovsky/openinference/commit/11e6cb98cf2efe73fd3b3972869d8527db67cc72))
+* add type stubs for openinference span ([#1415](https://github.com/igor-gorohovsky/openinference/issues/1415)) ([2170977](https://github.com/igor-gorohovsky/openinference/commit/21709778f59c2fd31b1c14ee1bfb465e48771d5b))
+* allow user override of id generator ([#1315](https://github.com/igor-gorohovsky/openinference/issues/1315)) ([1916749](https://github.com/igor-gorohovsky/openinference/commit/19167498fd74f2e93481bd63b5636e264af1eaab))
+* ensure `OpenInferenceSpan` is an instance of `opentelemetry.trace.Span` for type checks ([#1441](https://github.com/igor-gorohovsky/openinference/issues/1441)) ([b2c8959](https://github.com/igor-gorohovsky/openinference/commit/b2c895967e881444ff339d28b440375f6edaec74))
+* ensure io attributes output by manual instrumentation helpers are always strings ([#1502](https://github.com/igor-gorohovsky/openinference/issues/1502)) ([43c7f4a](https://github.com/igor-gorohovsky/openinference/commit/43c7f4a41d9d36828d0f45907e7a580ce97dd68e))
+* increase python upperbound to include 3.13 for openinference-instrumentation ([#1137](https://github.com/igor-gorohovsky/openinference/issues/1137)) ([0c2f297](https://github.com/igor-gorohovsky/openinference/commit/0c2f297bb479b6cd4a70c7e0b28d6578e0abc6e3))
+* remove setting the global logger level ([#1001](https://github.com/igor-gorohovsky/openinference/issues/1001)) ([5c0f83c](https://github.com/igor-gorohovsky/openinference/commit/5c0f83c355304da289ae1c849b9d315990281184))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/igor-gorohovsky/openinference/issues/1263)) ([5bfaa90](https://github.com/igor-gorohovsky/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/igor-gorohovsky/openinference/issues/1567)) ([c2f428c](https://github.com/igor-gorohovsky/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/igor-gorohovsky/openinference/issues/1353)) ([85d435b](https://github.com/igor-gorohovsky/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+* update readmes for development setup and fixes ([#1629](https://github.com/igor-gorohovsky/openinference/issues/1629)) ([7b211b3](https://github.com/igor-gorohovsky/openinference/commit/7b211b3b1624ab433ba35568112f0a1d8964456f))
+
 ## [0.1.32](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-v0.1.31...python-openinference-instrumentation-v0.1.32) (2025-05-27)
 
 
